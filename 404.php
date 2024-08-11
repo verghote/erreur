@@ -16,12 +16,14 @@
     <main>
         <div class="formulaire text-center mt-3" style="width: 32rem;">
             <p class="erreur">
-                La page demandée n'existe pas.
+                La page demandée n'existe pas. !
             </p>
             <hr>
-            <a href="/" class="mx-3" style="text-decoration: underline; color : #5cb85c">
-                Revenir à la page d'accueil
-            </a>
+            <div class="card-footer text-center bg-white">
+                <a href="/" class="mx-3 text-decoration-underline text-primary">
+                    Revenir à la page d'accueil
+                </a>
+            </div>
         </div>
     </main>
 </div>

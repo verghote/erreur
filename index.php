@@ -26,14 +26,14 @@ unset($_SESSION['erreur']);
 <div class="container-fluid d-flex flex-column p-0 h-100">
     <main>
         <div class="card mx-auto text-center mt-3" style="width: 32rem;">
-            <div class="card-header">
-                Votre demande ne peut pas être honorée.
+            <div class="card-header bg-white">
+                <strong>Votre demande ne peut pas être honorée.</strong>
             </div>
             <div class="card-body">
                 <p id='message' class="fs-6 text-danger"><?= $message ?></p>
             </div>
-            <div class="card-footer text-center ">
-                <a href="/" class="mx-3">
+            <div class="card-footer text-center bg-white">
+                <a href="/" class="mx-3 text-decoration-underline text-primary">
                     Revenir à la page d'accueil
                 </a>
             </div>
