@@ -20,14 +20,13 @@ unset($_SESSION['erreur']);
     // chargement du composant bootstrap
     echo file_get_contents('https://cdn.jsdelivr.net/gh/verghote/composant/bootstrap.html');
     ?>
-    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
 <div class="container-fluid d-flex flex-column p-0 h-100">
     <main>
         <div class="card mx-auto text-center mt-3" style="width: 32rem;">
             <div class="card-header bg-white">
-                <strong>Votre demande ne peut pas être honorée.</strong>
+                <strong>Avertissement</strong>
             </div>
             <div class="card-body">
                 <p id='message' class="fs-6 text-danger"><?= $message ?></p>
