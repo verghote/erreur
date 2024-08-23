@@ -16,7 +16,7 @@
     <main>
         <div class="formulaire text-center mt-3" style="width: 32rem;">
             <p class="erreur">
-                La page demandée n'existe pas. !
+                La page demandée n'existe pas.
             </p>
             <hr>
             <div class="card-footer text-center bg-white">
