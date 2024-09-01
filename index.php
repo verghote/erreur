@@ -18,7 +18,7 @@ unset($_SESSION['erreur']);
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?php
     // chargement du composant bootstrap
-    echo file_get_contents('https://cdn.jsdelivr.net/gh/verghote/composant/bootstrap.html');
+    echo file_get_contents('https://verghote.github.io/composant/bootstrap.html');
     ?>
 </head>
 <body>
