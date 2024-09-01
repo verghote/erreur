@@ -1,9 +1,9 @@
 # Gestion standard pour l'affichage des erreurs  
 
-Tous les projets Web doivent prévoir d'afficher des interfaces personnalisée pour afficher les erreurs classiques (401, 403, 404)
+Tous les projets Web doivent prévoir d'afficher des interfaces personnalisées pour afficher les erreurs classiques (401, 403, 404)
 ainsi que les erreurs spécifiques à l'application.
 
-Ce référentiel contient l'ensemble des scripts PHP permettant cette gestion 
+Ce référentiel contient l'ensemble des scripts PHP permettant cette gestion. 
 
 * 401.php
 > Affiche une interface personnalisée si une erreur 401 est renvoyée par le serveur (authentification demandée)  
